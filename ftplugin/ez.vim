@@ -19,7 +19,7 @@ setlocal formatoptions-=t formatoptions+=croql
 setlocal suffixesadd=.ez
 
 if has('comments')
-    setlocal comments=ex0:],s1:[ " TODO THIS WORK
+    setlocal comments=ex0:},s1:{ " TODO THIS WORK
     setlocal commentstring={%s}
 endif
 
