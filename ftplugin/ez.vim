@@ -20,7 +20,7 @@ setlocal suffixesadd=.ez
 
 if has('comments')
     setlocal comments=ex0:},s1:{ " TODO THIS WORK
-    set commentstring={%s}
+    setlocal commentstring={%s}
 endif
 
 " if has('find_in_path')
